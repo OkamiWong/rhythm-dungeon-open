@@ -1,5 +1,8 @@
 # Rhythm Dungeon
-https://arxiv.org/abs/1907.00042
+
+Link to the game (disable Metamask or any other Web3 wallets before playing): https://okamiwong.github.io/rhythm-dungeon-test/
+
+Link to the paper: https://arxiv.org/abs/1907.00042
 
 A blockchain-based roguelike rhythm game.
 
