@@ -1,0 +1,13 @@
+{
+"companyName": "CUHK(SZ) GAIM Lab & White Matrix",
+"productName": "Rhythm Dungeon",
+"dataUrl": "rhythm-dungeon-build-webgl.data.unityweb",
+"wasmCodeUrl": "rhythm-dungeon-build-webgl.wasm.code.unityweb",
+"wasmFrameworkUrl": "rhythm-dungeon-build-webgl.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}

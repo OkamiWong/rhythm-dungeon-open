@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <!-- QQ浏览器私有标签 -->
+  <meta name="x5-orientation" content="landscape">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="x5-page-mode" content="app">
+
+  <!-- UC浏览器私有标签 -->
+  <meta name="screen-orientation" content="landscape">
+  <meta name="full-screen" content="yes | no">
+  <meta name="broswermode" content="application">
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Rhythm Dungeon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script src="./dist/tp.js"></script>
+  <link rel="stylesheet" href="TemplateData/common.css">
+</head>
+
+<body style="display: none;">
+  <!--game-->
+  <div class="gameouter">
+    <div class="mainContainer">
+      <main>
+        <div class="webgl-content" style="width: auto; height:auto;">
+          <div id="gameContainer">
+          </div>
+        </div>
+        <div class="buttomGroup">
+          <div  class="buttomBackgroundImage flex" onclick="gameInstance.SetFullscreen(1)" draggable="false">
+            <div id="buttomTextContainer"><span class="buttomText">Fullscreen</span></div>
+            <div id="fullscreenBoyContainer"><img draggable="false" src="./TemplateData/fullscreen.png" alt=""></div>
+          </div>
+        </div>
+      </main>
+      <footer>
+          <div id="tips">
+            <p  id="metamaskWarning">Please install Metamask and connect to mainnet to upload your character and revive.</p>
+            <!-- <div class="underLine"></div> -->
+          <!---->
+            <p id="tip2">You can still enjoy the game without any connection to blockchain!</p>
+            <!-- <div class="underLine"></div> -->
+            <!---->
+            <p id="tip3">Upload your character to blockchain and beat other players! This gives you revival coins as rewards~</p>
+            <!-- <div class="underLine"></div> -->
+            <p id="Contract" onclick="javascript:window.open('https://etherscan.io/address/0x8cae244D8E274058d1C10C8ED731994A10b7e7d2')">Genesis Contract</p>
+            <!---->
+            <p id="buyCoins" onclick="javascript:window.open('https://etherscan.io/address/0x1b5269e48e16459f799ff955019acb7b68ac24d9')"><span style="">Buy revival coins at </span><i><u>RevivalCoin Contract</u></i> !!</p>
+
+          </div>
+      </footer>
+      <div class="bottom">
+        <div class="logoContainer">
+          <img src="./TemplateData/logoes.png" class="logo" alt="">
+          <p id="logotextTop"><a href="https://whitematrix.io/">White Matrix</a></p>
+          <p id="logotextBottom"><a href="https://hcslab.cuhk.edu.cn/">HCS Lab, CUHK-Shenzhen</a></p>
+        </div>
+        <!-- <div class="designerList">
+          <div class="designerIcon">
+            <img src="./TemplateData/designerIcon.png" draggable="false" alt="" srcset="">
+            <p>Credits</p>
+          </div>
+          <div class="designer">
+            <div class="footer"><span>Designer:</span> Wang Tengfei, Fu Taimeng, Wu Wei.</div>
+            <div class="footer"><span>Programmer:</span> Wang Tengfei, Fu Taimeng, Wu Wei.</div>
+            <div class="footer"><span>Musician:</span> Edward Cai.</div>
+            <div class="footer">Web Developer: Shao Dezhi.</div>
+            <div class="footer"><span>Icon Pack:</span> <a href="http://ails.deviantart.com">Henrique Lazarini</a>.</div>
+            <div class="footer"><span>Advisor:</span> Cai Wei, Wu Xiao, Zhang Shuyi.</div>
+            <div class="footer">Special thanks to all the friends who helped us test the game~
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="modal" style="display: none;">
+    <div class="modal-header">
+      <p>Rhythm Dungeon</p>
+    </div>
+    <div class="modal-body">
+      <p>If there is no response after Fullscreen button is clicked, please try TokenPocket or other web browsers.</p>
+    </div>
+    <div class="modal-footer">
+      <button id = "mobileFullscreen">
+        Fullscreen
+      </button>
+    </div>
+  </div>
+  <!-- <script src="./js/js.js"></script> -->
+  <script>
+  document.write("\<script type=\"text/javascript\" src=\"./js/js.js?"+ Math.random() + "\"\>\<" + "/script\>"); 
+</script>
+  <script src="js/DataCollection.js"></script>
+</body>
+</html>

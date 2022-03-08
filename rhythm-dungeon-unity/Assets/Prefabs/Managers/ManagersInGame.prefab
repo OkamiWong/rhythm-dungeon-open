@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9052632155425410696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9052632155425410699}
+  - component: {fileID: 9052632155425410698}
+  - component: {fileID: 9052632155425410693}
+  - component: {fileID: 9052632155425410692}
+  m_Layer: 0
+  m_Name: ManagersInGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9052632155425410699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9052632155425410696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9052632155425410698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9052632155425410696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9792e77b536aba34980929c06b065ed9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9052632155425410693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9052632155425410696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee089490b43540c428274b8aa959dfc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 6212447780351343868, guid: 8d82b90d66fa9da43aae21c44911ded8,
+    type: 3}
+  backgroundPrefab: {fileID: 3141405160146740911, guid: 5b9f8e989219d4347a261d01bc38dd46,
+    type: 3}
+  backgroundOfSecondStagePrefabs:
+  - {fileID: 1134878397866504052, guid: 1537d2b43063dca439f49b9a308c501b, type: 3}
+  - {fileID: 8959043840781905890, guid: b9b161f5b30214b4a8bed2672efe9197, type: 3}
+  - {fileID: 1488736602415500764, guid: fe01b154f4a5f5149b3210948f298029, type: 3}
+  - {fileID: 8310408524906486401, guid: d7328c34b1380814ca16370d6fbbe49a, type: 3}
+  itemPrefabs:
+  - {fileID: 7530626301754796377, guid: ff3fdf5cc7c97c84c834b65d6fbd6a1d, type: 3}
+  - {fileID: 7059020689688004379, guid: f1290bfc8ca6b2147b4a9c523785908d, type: 3}
+  - {fileID: 730159952660163295, guid: 0eb7e566c635c404c835c26052642228, type: 3}
+  - {fileID: 126934535335643973, guid: b5b1c54324fce994fac5b15b54908c07, type: 3}
+  - {fileID: 8966658529740445742, guid: 2fa1c8787ba39e342a615bd812edc732, type: 3}
+  - {fileID: 5961990353596710420, guid: fd0c8d0aad0ee604b85200409d84d114, type: 3}
+  - {fileID: 8183854931154336142, guid: 55ddf4177f691ce4d84fd5f24440c8cd, type: 3}
+  - {fileID: 5227267870100757929, guid: 1a6c0208fca7c0142b26afce348f11c4, type: 3}
+  - {fileID: 6938431003936020147, guid: c5b8026362116d74a9468828692c7250, type: 3}
+  - {fileID: 3133185511437903974, guid: f8988fa839bba934789ea651806ebf21, type: 3}
+  - {fileID: 4664010007967736951, guid: 0aa070c398bf06344962a4f4be49641d, type: 3}
+  - {fileID: 2235756772335285104, guid: 4d490e1ad55ba1347b03972740f33a39, type: 3}
+  - {fileID: 1955198705583273221, guid: c1c6a2cdf26139f44a5a638f85150688, type: 3}
+  - {fileID: 1937651846239333297, guid: 53bf0402be69be6478ba9cc93a87ad4d, type: 3}
+  - {fileID: 7172127592135352266, guid: 07477a85748e14d42a516063b7a39c08, type: 3}
+  - {fileID: 7549329869724612933, guid: bc2c6409cb9c6b7489d83fb20422cfbf, type: 3}
+  - {fileID: 8172767455006361520, guid: 026320974e86441409db610a7d52552b, type: 3}
+  - {fileID: 8309536299138884545, guid: 38c3955c7f587394986167aade1e4c27, type: 3}
+  - {fileID: 5412296820508351679, guid: ea9b77c7443bc5d44860e9612124b4dd, type: 3}
+  - {fileID: 7638062041197779679, guid: e171115e3ab774142a52a5216908d2f8, type: 3}
+  - {fileID: 1337475070099095713, guid: 5806fe1ab11e7494d9f8489c04667ff9, type: 3}
+  currentBackground: {fileID: 0}
+  isTutorial: 0
+  isEndlessMode: 0
+  secondPerHalfBeat: 0
+  combo: 0
+  playerAction: 0
+  tutorialEnemyAction: 0
+  level: 0
+  gameStateBeforePause: 0
+  isRevived: 0
+--- !u!114 &9052632155425410692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9052632155425410696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aed808dfad3b1248a115c7c58e5bb92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 7258120030307754211, guid: 0e1d0de26957fc045884350786ba1e9a, type: 3}
+  - {fileID: 3763727004429658409, guid: 0873c8932da4d504b909beb9d6131f3a, type: 3}
+  - {fileID: 3908391079067190107, guid: 5f0576b48a44dfa4a8b3b5b4b7ee41b6, type: 3}
+  - {fileID: 8421280140616179387, guid: d197204b678371441bc7d08b78aff2c1, type: 3}
+  - {fileID: 7258120030307754211, guid: 1993819ffde28f946bc7a24df14dd71e, type: 3}
+  - {fileID: 7258120030307754211, guid: 17ac077b190ec1b43b4abaa7e8ca2e05, type: 3}
+  bossPrefabs:
+  - {fileID: 111621347790376822, guid: a1dfe8ae4c608fb43b3b2537518af775, type: 3}
+  - {fileID: 3239005729541989289, guid: 5baec5234db74484ab4a109711680b3c, type: 3}
+  fetchedEnemyPrefabs:
+  - {fileID: 8909334257333151211, guid: ab55f09f66da4c44c94b09ab0590cc5b, type: 3}
+  finalBossPrefab: {fileID: 5253867517625103403, guid: e832e5e93244f624caa00aafaeacc34c,
+    type: 3}
